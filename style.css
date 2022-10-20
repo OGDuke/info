@@ -120,6 +120,62 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.bxl-facebook:before {
+    content: "\e92f";
+}
+.bxl-discord-alt:before {
+    content: "\e925";
+}
+.bxl-facebook{
+    padding: 2px;
+    background-color: DodgerBlue;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.bxl-facebook:hover{
+    transform: scale(1.5);
+}
+.bxl-discord-alt{
+    padding: 5px;
+    background-color: #5865F2;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.bxl-discord-alt:hover{
+    transform: scale(1.5);
+}
+.bxl-instagram{
+    padding: 5px;
+    background-color: #C13584;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.bxl-instagram:hover{
+    transform: scale(1.5);
+}
+.bxl-youtube{
+    padding: 5px;
+    background-color: #FD1D1D;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.bxl-youtube:hover{
+    transform: scale(1.5);
+}
+.bxs-joystick-alt{
+    padding: 5px;
+    background-color: #F77737;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.bxs-joystick-alt:hover{
+    transform: scale(1.5);
+}
 .bxs-moon {
     font-size: 40px;
     margin: 130px;
